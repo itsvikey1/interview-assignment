@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Create an Account</h2>
+        <form action="#">
+          <input type="text" id="firstName" name="firstName" placeholder="First Name" required>
+          <input type="text" id="lastName" name="lastName" placeholder="Last Name" required>
+          <input type="email" id="email" name="email" placeholder="Email" required>
+          <input type="password" id="password" name="password" placeholder="Password" required>
+          <div class="radio-container">
+            <input type="checkbox" id="terms" name="terms" required>
+            <label class="radio-label" for="terms">By preceeding, I agree to the <a href="terms.html">Terms & Conditions</a> and <a href="privacy.html">Privacy Policy</a></label>
+          </div>
+          <input type="submit" value="Create an Account">
+        </form>
+        <div class="or-line">
+            <span></span> 
+            <p>or</p> 
+            <span></span> 
+        </div>
+        <div class="social-login">
+            <button onclick="loginWithFacebook()"><img src="images\1_Facebook2_colored_svg-128.webp" alt="Facebook Logo" style="height: 30px; width: 30px; margin-right: 15px;"></button>
+            <button onclick="loginWithGoogle()"><img src="images\Google__G__logo.svg.webp" alt="Gmail Logo" style="height: 30px; width: 30px; margin-right: 15px;"></button>
+        </div>
+        <p>Already have an account? <a href="login.html">Log In</a></p>
+    </div>
+</body>
+</html>

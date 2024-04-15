@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Card</title>
+   
+    <link rel="stylesheet" href="home.css"> <!-- Moved inside <head> -->
+</head>
+<body>
+    <script src="script.js"></script>
+    <div class="card-container">
+        <button class="skip-button" onclick="location.href='signup.html'">Skip</button>
+        <img src="images/WhatsApp Image 2024-04-14 at 10.00.06_e76ff9a0.jpg" alt="Sample Image" class="main-image">
+        <div class="hover-card">
+            <button class="next-button">&#x2192;</button> 
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="15" viewBox="0 0 30 15">
+                <path d="M 0,15 A 15 15 0 0 1 15 0 L 15 4 A 11 11 0 0 0 4 15 Z" fill="#FFFFFF"/>
+                <path d="M 15,0 L 30 7.5 L 15 15 Z" fill="#FFFFFF"/>
+            </svg>
+            
+        </div>
+        <div class="card-footer">
+           <h3>Track Your Goal</h3> 
+
+            Don't worry if you have trouble determining your goals, We can help you determine your goals and track your goals
+        </div>
+    </div>
+    
+    <div class="second-card-container" style="display: none;">
+        <link rel="stylesheet" href="home2.css" disabled>
+        <button class="second-skip-button">Skip</button>
+        <img src="images/second-image.jpg" alt="Second Sample Image" class="second-main-image">
+        <div class="second-hover-card">
+            <button class="next-button">&#x2192;</button> 
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="15" viewBox="0 0 30 15">
+                <path d="M 0,15 A 15 15 0 0 1 15 0 L 15 4 A 11 11 0 0 0 4 15 Z" fill="#FFFFFF"/>
+                <path d="M 15,0 L 30 7.5 L 15 15 Z" fill="#FFFFFF"/>
+            </svg>
+        </div>
+        <div class="second-card-footer">
+           >
+        </div>
+    </div>
+
+</body>
+</html>

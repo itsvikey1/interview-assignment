@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+
+.heading {
+    align-items: center;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px auto;
+    max-width: 600px; /* Limits the maximum width, especially useful on larger screens */
+    background-color: #f9f9f9; /* Light grey background for the box */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Subtle shadow to create depth */
+    border-radius: 8px; /* Rounded corners for the box */
+    margin-top: 4rem;
+}
+
+li {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    position: relative;
+    margin: 1 rem;
+}
+
+li:last-child {
+    border-bottom: none; /* Remove border from the last list item */
+}
+
+input[type="checkbox"] {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+@media (min-width: 768px) { /* Adjust the breakpoint as needed */
+    ul {
+        max-width: 600px; /* Set a maximum width for the list */
+        margin: 0 auto; /* Center the list horizontally */
+    }
+
+    li {
+        padding-left: 20px; /* Increase left padding */
+        padding-right: 60px; /* Increase right padding to accommodate checkbox */
+        margin: 3px;
+    }
+
+    input[type="checkbox"] {
+        right: 20px; /* Position checkbox closer to the text */
+    }
+}
+input[type="submit"] {
+    background-color: #5a9deb;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    margin-top: 5rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #d4ddd5;
+    
+  }
+  
+ 
+ 
